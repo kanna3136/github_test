@@ -1,0 +1,19 @@
+@keyframes guruguru {
+    0% {transform: rotate(0deg);}
+    50% {transform: rotate(180deg);}
+    100% {transform: rotate(360deg);}
+}
+
+.kaabii {
+    animation: guruguru 3s linear infinite;
+
+    position: fixed;
+
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+
+    width: 50%;
+    margin: auto;
+}
